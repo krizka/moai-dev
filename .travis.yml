@@ -1,0 +1,6 @@
+language: objective-c
+compiler: clang
+script: "cd xcode/libmoai && ./build.sh"
+branches:
+  only:
+    - development
